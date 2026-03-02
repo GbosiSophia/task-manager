@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class = "header">
+        <header>
+            <h1>Task Manager</h1>
+            <p>For easy task management</p>
+        </header>
+    </div>
+
+    <div class="app">
+        <form id="taskForm" class="inputRow">
+            <label for="taskInput" class="sr-only">New</label>
+
+            <input type="text" 
+            id="taskInput" 
+            placeholder="Enter a new task" 
+            autocomplete="off" 
+            required>
+            <button type="submit" id="submit">Add Task</button>
+        </form>
+
+        <div class="controls">
+            <select id="filter">
+                <option value="all">All</option>
+                <option value="active">Active</option>
+                <option value="completed">Completed</option>
+            </select>    
+        </div>
+
+        <ul id="taskList" aria-label="Task List"></ul><br>
+
+        <button type="button" id="clearDone">Clear Completed</button>
+    </div>
+
+    <script src="script.js"></script>
+    <footer>©Sophia Gbosi🤩</footer>
+</body>
+</html>

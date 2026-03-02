@@ -1,0 +1,43 @@
+# Task Manager App
+
+A simple task manager web app that lets users add, complete, filter, and clear tasks.
+
+## Features
+- Add new tasks
+- Mark tasks as completed
+- Filter tasks (e.g., All / Active / Completed)
+- Clear completed tasks
+- Data persistence using Local Storage
+
+## Demo
+- Live URL: (add your Render link after deployment)
+- Repository: Github URL
+
+## Tech Stack
+- HTML
+- CSS
+- JavaScript 
+
+## How to Run Locally
+1. Download or clone the repo
+2. Open the project folder
+3. Run it:
+   - Easy method: double-click `index.html`
+   - Better method: use Live Server in VS Code.
+
+## Usage
+1. Type a task in the input box
+2. Click 'Add' 
+3. Click a task to mark as done
+4. Use the filter dropdown to view tasks
+5. Use 'Clear Completed' to remove finished tasks
+
+## Requirements
+See `requirements.md`.
+
+## Testing
+See `tests/test-cases.md`.
+
+## Policies
+See the `policies/` folder.
+

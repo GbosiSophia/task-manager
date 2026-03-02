@@ -1,0 +1,23 @@
+# Requirements
+
+## Functional Requirements
+1. Users can add a new task.
+2. Users can view a list of tasks.
+3. Users can mark a task as completed.
+4. Users can unmark a completed task (toggle).
+5. Users can filter tasks:
+   - All
+   - Active
+   - Completed
+6. Users can clear/delete completed tasks.
+7. Input validation:
+   - Empty tasks should not be added.
+   - Very long tasks should be handled gracefully (either truncate or allow wrap).
+
+## Non-Functional Requirements
+1. Responsiveness: Works on mobile and desktop screens.
+2. Usability: Buttons and text should be readable and clickable.
+3. Performance: Handles at least 100 tasks without lag.
+4. Compatibility: Works on modern browsers (Chrome, Edge, Firefox).
+- Local storage persistence (tasks remain after refresh)
+

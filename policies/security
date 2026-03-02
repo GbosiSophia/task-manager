@@ -1,0 +1,13 @@
+# Security Policy
+
+## Supported Versions
+This is a student project and is maintained on a best-effort basis.
+
+## Reporting a Vulnerability
+If you discover a security issue:
+1. Do not publicly post it immediately.
+2. Contact the developer via: tgbosi.2400042@stu.cu.edu.ng
+
+## Notes
+- Avoid storing sensitive information in tasks.
+- If Local Storage is used, tasks are visible to anyone using the same browser profile.
