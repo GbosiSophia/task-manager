@@ -10,8 +10,8 @@ A simple task manager web app that lets users add, complete, filter, and clear t
 - Data persistence using Local Storage
 
 ## Demo
-- Live URL: (add your Render link after deployment)
-- Repository: Github URL
+- Live URL: (https://task-manager-t6id.onrender.com)
+- Repository: (https://github.com/GbosiSophia/task-manager)
 
 ## Tech Stack
 - HTML
